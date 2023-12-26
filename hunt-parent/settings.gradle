@@ -1,0 +1,6 @@
+rootProject.name = 'hunt-platform'
+
+include 'library'
+include 'application'
+include 'worker-service-root'
+include 'bpm-launcher-service'

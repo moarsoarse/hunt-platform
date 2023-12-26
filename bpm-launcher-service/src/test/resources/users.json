@@ -1,0 +1,7 @@
+[
+  {
+    "username": "test01",
+    "password": "password01",
+    "expirationTimeInMinutes": "300"
+  }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hunt-parent" />
+        <module name="worker-service-root" />
+        <module name="application" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="bpm-launcher-service" target="1.5" />
+      <module name="library" target="21" />
+      <module name="untitled" target="1.5" />
+      <module name="worker-service-root (1)" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="application" options="" />
+      <module name="library" options="-parameters" />
+      <module name="worker-service-root (1)" options="-parameters" />
+    </option>
+  </component>
+</project>
